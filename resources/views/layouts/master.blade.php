@@ -2,7 +2,6 @@
 
 @include('bagian.navbar')
 
-
-@include('barang.index')
+@yield('container')
 
 @include('bagian.footer')
